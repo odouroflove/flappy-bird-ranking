@@ -1,4 +1,5 @@
 <?php
+/* >_ Developed by Vy Nghĩa */
 require 'login.php';
 if(isset($accessToken) && isset($_SESSION['codedata']) && isset($_POST['point']) && isset($_POST['codedata'])){
 	if($_POST['codedata'] == $_SESSION['codedata']){
