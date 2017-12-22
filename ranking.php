@@ -1,4 +1,6 @@
-<?php require 'data/config.php'; 
+<?php 
+/* >_ Developed by Vy Nghĩa */
+require 'data/config.php'; 
 
 function timeAgo($time_ago){
   $cur_time 	= time();
