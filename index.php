@@ -1,6 +1,8 @@
-<?php require 'login.php';
+<?php 
+/* >_ Developed by Vy Nghĩa */
+require 'login.php';
 $_SESSION['codedata'] = md5(time());
- ?>
+?>
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
