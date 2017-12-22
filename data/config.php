@@ -3,9 +3,9 @@
 
 //mysql info
 $dbhost = 'localhost';
-$dbuser = 'ctjoppmqhosting_vnghia';
-$dbpass = '1151985611';
-$dbname = 'ctjoppmqhosting_cloud';
+$dbuser = 'dbuser';
+$dbpass = 'dbpass';
+$dbname = 'dbname';
 
 //connect mysql
 $con = @mysql_connect($dbhost, $dbuser, $dbpass);
